@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+//первые 5 варианта
+/*
+var users=["yulia", "sabina", "riana"];
+var login=["huk", "joj", "dashbak"]
+users.unshift("ale")
+if (users[0].length!=users.length)
+{
+login.pop();
+}
+else
+{
+login.shift();
+login.pop();
+}
+console.log(users,login, users.length, login.length);*/
+
+
+/*
+var numbers=[1,200,300,400,6], max=0;
+if (numbers[1]!=numbers[numbers.length-2])
+console.log(numbers[1],numbers[numbers.length-2]);
+for(var i = 0; i < numbers.length; i++)
+if(numbers[i] > max)
+max = numbers[i];
+if (max>=0)
+console.log(max);*/
+
+/*
+var A=[2,4];
+var B=[7,8],min=A[0];
+for(var i = 0; i <A.length; i++)
+if(A[i] < min)
+min = A[i];
+if(min!=0)
+console.log(A[A.length-1]);
+if(B.length>3)
+console.log(B.length,B[0]);*/
+/*
+var letters = ["6", "3", "7", "2"], B = [], max=0;
+if(letters.length>2)
+{
+  letters.unshift(letters.length)
+  letters.pop();
+}
+for (var i = 0; i < letters.length; i++)
+ {
+  B[i] = letters[letters.length-1-i];
+  console.log(B[i]);
+}
+for(var i=0; i < letters.length; i++)
+{
+  if(parseInt(letters[i])>max)
+  {
+    max=parseInt(letters[i]);
+  }
+}
+console.log(Math.sqrt(max), letters);
+
+var num1 = [1, 2, 3], num2 = [4, 5, 6], B=[], S;
+num2.unshift(9);
+if(num1[num1.length-1]<num2[0])
+{
+  S=num1.concat(num2);
+  console.log(S);
+}
+else
+{
+  for (var i = 0; i < num2.length; i++)
+   {
+    B[i] = num2[num2.length-1-i];
+    console.log(B[i]);
+  }
+}
+
+var arr = [ 1, 2, 3, 4, 5 ], max=0;
+arr.push(3);
+arr.unshift(6);
+if(arr[0]<arr[arr.length-1])
+{
+  for(var i=0; i < arr.length; i++)
+  {
+    if(arr[i]>max)
+    {
+      max=arr[i];
+    }
+  }
+}
+else
+  {
+    arr.slice(1);
+  }
+  console.log(max);
+*/
+
+
+
+
+  </script>
+</body>
+</html>
